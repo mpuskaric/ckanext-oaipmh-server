@@ -1,8 +1,9 @@
 OAI-PMH API for B2FIND CKAN. 
 This extends b2find CKAN to produce OAI-PMH metadata in DataCite format. Ckanext-oaipmh-server is based on https://github.com/kata-csc/ckanext-oaipmh
 
-UPDATE:
-This version is adjusted to work with a regular CKAN installation. This extension has been teste against openarchives.org validator and it passes al 38 tests. Make sure to enter an admins' email address in the oaipmh_server.py file. The use of resumption Tokens cannot be guaranteed at this point. Furthermore, url as an identifier should be implemented to satisfy the requirements of the BASE search engine
+UPDATE
+
+This version is adjusted to work with a regular CKAN installation. This extension has been tested against openarchives.org validator and it passes all 38 tests. Make sure to enter an admins' email address in the oaipmh_server.py file. The use of resumption Tokens cannot be guaranteed at this point. Furthermore, url as an identifier should be implemented to satisfy the requirements of the BASE search engine
 
 **Note**: needs hotfix for resumption token in pyoai v.2.5.0, see here: https://github.com/EUDAT-B2FIND/pyoai/blob/03c790431d96024b29f3cd8575602d996350ff80/src/oaipmh/server.py#L458
 We extended pyoai by "About" section (provenance info), see here: https://github.com/EUDAT-B2FIND/pyoai/tree/prov 
