@@ -1,0 +1,4 @@
+
+        [ckan.plugins]
+        oaipmh=ckanext.oaipmh.plugin:OAIPMHPlugin
+        

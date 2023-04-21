@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ckanext-oaipmh-server
+Version: 0.9.0
+Summary: OAI-PMH server for CKAN
+Home-page: http://b2find.eudat.eu/
+Author: EUDAT-B2FIND
+Author-email: https://www.eudat.eu/support-request
+License: AGPL
+Description:         
+Platform: UNKNOWN
